@@ -53,6 +53,7 @@ section {
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
+  margin-left: 20px;
 }
 
 .card {
@@ -78,6 +79,7 @@ section {
 .card-stats {
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 .card-star {
