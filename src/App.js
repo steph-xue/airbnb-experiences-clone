@@ -10,20 +10,19 @@ function App() {
             <Card
                 key={item.id}
                 {...item}
-                
             />
-        )
-    })        
+        );
+    });  
     
     return (
         <div>
             <Navbar />
             <Hero />
-            <section className="cards-list">
+            <div className="cards-list">
                 {cardElements}
-            </section>
+            </div>
         </div>
-    )
+    );
 }
 
 export default App;
