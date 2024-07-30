@@ -1,11 +1,11 @@
 import React from "react"
 
-export default function Card(props) {
-    let badgeText
+function Card(props) {
+    let badgeText;
     if (props.openSpots === 0) {
-        badgeText = "SOLD OUT"
+        badgeText = "SOLD OUT";
     } else if (props.location === "Online") {
-        badgeText = "ONLINE"
+        badgeText = "ONLINE";
     }
     
     return (
@@ -29,5 +29,7 @@ export default function Card(props) {
                 <span className="bold">From ${props.price}</span> / person
             </p>
         </div>
-    )
+    );
 }
+
+export default Card;
