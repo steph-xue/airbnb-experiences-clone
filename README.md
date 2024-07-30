@@ -1,7 +1,5 @@
 # Airbnb Experiences Project
-The Airbnb experiences project is a static web application built using the front-end JavaScript library, React. The project displays a clean user interface with an array of different experiences each displayed on a card with an average rating, number of reviews made, and price per person, that the user can scroll through horizontally. React props were used to pass data through into each card component to make the component reusable. (Note: site is not currently interactive but a user interface model)
-
-The data used for the experienes is listed in JSON format in a JavaScript file called data.js.
+The Airbnb experiences project is a static web application built using the front-end JavaScript library, React. The project displays a clean user interface with an array of different experiences each displayed on a card with an average rating, number of reviews made, and price per person, that the user can scroll through horizontally. React props were used to pass data through into each card component to make the component reusable. The data used for the experiences is listed in JSON format in a JavaScript file called data.js. (Note: site is not currently interactive but is a user interface model)
 
 Can access on: [https://digital-business-card-steph.netlify.app/](https://airbnb-experiences-sx.netlify.app/)
 
