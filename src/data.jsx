@@ -37,5 +37,57 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Digital Art Lessons",
+        description: "Learn how to create digital art from scratch. We'll cover everything from the basics of digital drawing to more advanced techniques.",
+        price: 125,
+        coverImg: "art.jpg",
+        stats: {
+            rating: 4.7,
+            reviewCount: 42
+        },
+        location: "Online",
+        openSpots: 3,
+    },
+    {
+        id: 5,
+        title: "Learn to Code",
+        description: "Learn the basics of coding and get started on your journey to becoming a software developer.",
+        price: 88,
+        coverImg: "coding.jpg",
+        stats: {
+            rating: 4.9,
+            reviewCount: 36
+        },
+        location: "Online",
+        openSpots: 3,
+    },
+    {
+        id: 6,
+        title: "Cooking Made Easy",
+        description: "Learn how to cook delicious meals from the comfort of your own home. We'll cover everything from the basics of cooking to more advanced techniques.",
+        price: 65,
+        coverImg: "cooking.jpg",
+        stats: {
+            rating: 4.5,
+            reviewCount: 15
+        },
+        location: "Sweden",
+        openSpots: 0,
+    },
+    {
+        id: 7,
+        title: "Guitar Lessons",
+        description: "Learn how to play the guitar. We'll cover everything from the basics of guitar playing to more advanced techniques.",
+        price: 105,
+        coverImg: "guitar.jpg",
+        stats: {
+            rating: 4.1,
+            reviewCount: 8
+        },
+        location: "USA",
+        openSpots: 3,
     }
 ]
