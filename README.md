@@ -1,5 +1,5 @@
 # Airbnb Experiences Clone Project
-The Airbnb experiences clone project is a static web application built using the front-end JavaScript library, React. The project displays a clean user interface with an array of different types of experiences each displayed on a card with an average rating, number of reviews made, and price per person, that the user can scroll through horizontally. React props were used to pass data through into each card component to make the component reusable. The data used for the experiences is listed in JSON format in a JavaScript file called data.js. (Note: site is not currently interactive but is a user interface model)
+The Airbnb experiences clone project is a static website built using the front-end JavaScript library, React. The project displays a clean user interface with an array of different types of experiences each displayed on a card with an average rating, number of reviews made, and price per person, that the user can scroll through horizontally. React props were used to pass data through into each card component to make the component reusable. The data used for the experiences is listed in JSON format in a JavaScript file called data.js. (Note: site is not currently interactive but is a user interface model)
 
 ![Airbnb](./images/airbnb.png?raw=true "Airbnb")
 <br></br>
@@ -17,9 +17,9 @@ The Airbnb experiences clone project is a static web application built using the
 - The web application can be run on your local server by typing in the command line 'npm run dev'
 
 ## How to Deploy
-- To build out the application for deployment use “npm run build”
+- To build out the website for deployment use “npm run build”
 - To test out the preview before deploying the application use “npm run preview”
-- Deploy the application on your server of choice:
+- Deploy the website on your server of choice:
   - Netlify using the command line
     - Install the Netlify CLI using “npm install -g netlify-cli”
     - Create a new site in Netlify using “ntl init”
