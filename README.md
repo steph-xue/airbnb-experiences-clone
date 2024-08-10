@@ -7,7 +7,7 @@ The Airbnb experiences clone project is a static website built using the front-e
 ## Languages & Frameworks
 - The react info project was created using React, a front-end JavaScript web libary
   - React uses JSX, which is an XML-like extension to the JavaScript language that lets you write HTML-like markup inside a JavaScript file
-- Vite was also used as a build tool to create the web application
+- Vite was also used as a build tool to create the website
   - Vite is a local development server that has support for frameworks like React and Vue.js, and programming languages like JavaScript and TypeScript 
 
 ## How to Run Locally
@@ -18,7 +18,7 @@ The Airbnb experiences clone project is a static website built using the front-e
 
 ## How to Deploy
 - To build out the website for deployment use “npm run build”
-- To test out the preview before deploying the application use “npm run preview”
+- To test out the preview before deploying the website use “npm run preview”
 - Deploy the website on your server of choice:
   - Netlify using the command line
     - Install the Netlify CLI using “npm install -g netlify-cli”
