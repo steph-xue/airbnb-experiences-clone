@@ -49,7 +49,7 @@ A hero section sits at the top of the page beneath the navigation bar, featuring
 
 ## How It Works
 
-The interface is built from three components, a navigation bar, a hero section, and a card, all rendered from a single root component. Rather than writing out each experience by hand, the root component loops through an array of experience objects stored in a separate data file and renders one Card component per entry, passing each item's details in as props. Inside the Card component, conditional logic checks the number of open spots and the location to decide whether to display a "SOLD OUT" or "ONLINE" badge, so the badge logic stays centralized in one place rather than being repeated for every listing. Vite handles the local development server and bundles the app for deployment.
+The interface is built from three components, a navigation bar, a hero section, and a card, all rendered from a single root component. Rather than writing out each experience by hand, the root component loops through an array of experience objects stored in a separate data file and renders one Card component per entry, passing each item's details in as props. Inside the Card component, conditional logic checks the number of open spots and the location to decide whether to display a "SOLD OUT" or "ONLINE" badge, so the badge logic stays centralized in one place rather than being repeated for every listing. Vite handles the local development server and bundles the application for deployment.
 
 <br>
 
