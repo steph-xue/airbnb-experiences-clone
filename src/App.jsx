@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx"
 import Card from "./components/Card.jsx"
 import data from "./data.jsx"
 
+// Renders the navbar, hero section, and list of experience cards
 function App() {
     const cardElements = data.map(item => {
         return (

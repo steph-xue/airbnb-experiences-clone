@@ -1,3 +1,4 @@
+// Renders the top navigation bar
 function Navbar() {
     return (
         <nav>

@@ -1,3 +1,4 @@
+// Renders the hero section beneath the navbar
 function Hero() {
     return (
         <section className="hero">

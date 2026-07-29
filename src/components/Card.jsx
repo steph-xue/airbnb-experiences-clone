@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"
 
+// Renders an experience card with its badge, image, stats, title, and price
 function Card(props) {
     let badgeText;
     if (props.openSpots === 0) {
