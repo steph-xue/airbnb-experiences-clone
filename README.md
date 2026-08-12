@@ -24,7 +24,7 @@
 
 ## Overview
 
-This project recreates the Airbnb Experiences page, featuring a hero section and a horizontally scrollable collection of activity listings. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. Each experience card is dynamically rendered from a shared data file through reusable components and displays details such as ratings, locations, prices, and availability. Conditional badges indicate whether an experience is sold out or available online.
+This project recreates the Airbnb Experiences page, featuring a hero section and a horizontally scrollable collection of activity listings. It is built with React, JavaScript, and CSS and uses Vite as the build tool. Each experience card is dynamically rendered from a shared data file through reusable components and displays details such as ratings, locations, prices, and availability. Conditional badges indicate whether an experience is sold out or available online.
 
 
 <br>
@@ -42,7 +42,7 @@ A hero section sits at the top of the page beneath the navigation bar, featuring
 
 | Layer | Technologies |
 |---|---|
-| Frontend | React, JavaScript, HTML, CSS |
+| Frontend | React, JavaScript, CSS |
 | Build Tool | Vite |
 
 <br>
